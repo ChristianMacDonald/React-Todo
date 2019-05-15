@@ -1,5 +1,5 @@
 import React from 'react';
-import TodoForm from './components/TodoComponents/TodoForm';
+import Todo from './components/TodoComponents/Todo';
 
 class App extends React.Component {
     // you will need a place to store your state in this component.
@@ -9,6 +9,7 @@ class App extends React.Component {
         return (
             <div className="app">
                 <h1>Todo List: MVP</h1>
+                <Todo />
             </div>
         );
     }
